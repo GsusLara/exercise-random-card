@@ -1,1 +1,32 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.card {
+  position: relative;
+  background: white;
+  width: 250px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  border-radius: 7%;
+}
+
+.centro {
+  top: 30%;
+  text-align: center;
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  font-size: 50px;
+}
+.icono1 {
+  font-size: 50px;
+  margin-left: 20px;
+}
+.icono2 {
+  transform: rotate(180deg);
+  font-size: 50px;
+  margin-top: 280px;
+  margin-right: 20px;
+}
